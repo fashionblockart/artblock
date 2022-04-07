@@ -42,7 +42,7 @@ export default function My() {
 
 
                         {!c.script &&  <div className={'a'}>
-                            <Link to={`/projects/${c.id}/script`}>Add Script</Link>
+                            <Link to={`/projects/${c.id}/script`}>Add Scripts</Link>
                         </div>}
                     </div>
                 )))}
